@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.backImage {
+  height: 1000px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image1 {
+  background-image: url("./images/image2.png");
+}
+.image2 {
+  background-image: url("./images/image1.png");
+}
+.image3 {
+  background-image: url("./images/image3.jpg");
+}
+.hero {
+  position: absolute;
+  background-color: blueviolet;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: blanchedalmond;
+}
+h1 {
+  position: relative;
+  font-size: 50px;
+}
+.middle {
+  text-align: center;
+  color: black;
+  background-color: blueviolet;
+}
+.Footer {
+  position: absolute;
+  background-color: blue;
+  top: 360%;
+  height: 15%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+  color: blanchedalmond;
+}
+a {
+  text-decoration: none;
+  color: cornsilk;
+}
