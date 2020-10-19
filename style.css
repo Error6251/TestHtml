@@ -1,6 +1,12 @@
+:root {
+  --primaryBgColor: black;
+  --secondBgColor: #181829;
+  --primaryTextColor: wheat;
+  --secondTextColor: silver;
+}
 body {
-  background-color: black;
-  color: wheat;
+  background-color: var(--primaryBgColor);
+  color: var(--primaryTextColor);
   margin: 0;
   padding: 0;
 }
@@ -33,7 +39,7 @@ body {
 }
 .hero .frame {
   position: absolute;
-  background-color: black;
+  background-color: var(--primaryBgColor);
 }
 .topF {
   top: 0;
@@ -58,7 +64,7 @@ body {
 
 .heroText {
   margin: 0;
-  background-color: #181829;
+  background-color: var(--secondBgColor);
   width: 50%;
   text-align: center;
 }
@@ -70,25 +76,20 @@ body {
 .heroText h1 span {
   position: absolute;
   font-size: 20px;
-  top: 0;
-  right: 70%;
+  top: -25%;
+  right: 65%;
 }
 
-.middle {
-  text-align: center;
-  color: black;
-  background-color: blueviolet;
-}
 .Footer {
-  position: absolute;
-  background-color: blue;
+  background-color: var(--primaryBgColor);
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: black;
   text-align: center;
+  padding: 10px 0px;
+  font-size: 3vh;
 }
 a {
   text-decoration: none;
-  color: silver;
+  color: var(--secondTextColor);
 }
