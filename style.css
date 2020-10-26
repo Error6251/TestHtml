@@ -93,3 +93,33 @@ a {
   text-decoration: none;
   color: var(--secondTextColor);
 }
+
+.navigation {
+  padding: 15px 20px;
+  background: var(--primaryBgColor);
+  display: flex;
+}
+
+.navigation-brand {
+  flex: 1;
+}
+
+.navigation-brand a {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navigation-nav li a {
+  padding: 5px 15px;
+  display: block;
+}
+
+.navigation-nav li {
+  display: inline-block;
+}
+.navigation-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
